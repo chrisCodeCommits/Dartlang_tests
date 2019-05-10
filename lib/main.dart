@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('TEST UI KIT'),
         ),
-        body: Card(child: Column(children: <Widget>[],),),
+        body: Card(child: Column(children: <Widget>[
+          Image.asset('assets/food.jpg'),
+          Text('Food paradise'),
+        ],),),
       ),
     );
   }
