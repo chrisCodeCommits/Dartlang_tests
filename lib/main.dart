@@ -12,6 +12,13 @@ class MyApp extends StatelessWidget {
           ),
           body: Column(
             children: [
+              Container(
+                margin: EdgeInsets.all(10.0),
+                child: RaisedButton(
+                  onPressed: () {},
+                  child: Text('add products'),
+                ),
+              ),
               Card(
                 child: Column(
                   children: <Widget>[
